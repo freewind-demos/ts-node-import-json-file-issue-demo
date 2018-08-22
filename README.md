@@ -24,3 +24,7 @@ Error:
 ⨯ Unable to compile TypeScript:
 hello.ts(1,23): error TS2307: Cannot find module './data.json'.
 ```
+
+Resources
+---------
+
