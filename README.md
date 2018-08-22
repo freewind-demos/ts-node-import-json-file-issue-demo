@@ -11,7 +11,7 @@ node hello.js
 
 It will print `{ name: 'ts-node' }`
 
-### It doesn't work with `ts-node`
+### <s>It doesn't work with `ts-node`</s>
 
 ```
 npm install
@@ -24,6 +24,11 @@ Error:
 ⨯ Unable to compile TypeScript:
 hello.ts(1,23): error TS2307: Cannot find module './data.json'.
 ```
+
+Update
+------
+
+Fix: add `"resolveJsonModule": true` to `tsconfig.json`, `ts-node` will work fine.
 
 Resources
 ---------
