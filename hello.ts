@@ -1,3 +1,3 @@
-import {capitalize} from 'lodash';
+import * as name from './data.json'
 
-console.log("Hello " + capitalize("typescript") + "!");
+console.log(name)
