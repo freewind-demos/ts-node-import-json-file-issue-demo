@@ -30,6 +30,8 @@ Update
 
 Fix: add `"resolveJsonModule": true` to `tsconfig.json`, `ts-node` will work fine.
 
+`resolveJsonModule` is supported from typescript 2.9.
+
 Resources
 ---------
 
